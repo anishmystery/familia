@@ -16,6 +16,12 @@ TextSpan signUpText = const TextSpan(
   style: TextStyle(fontSize: 14, fontFamily: 'Ubuntu', color: textColor),
   children: <TextSpan>[
     TextSpan(text: 'Don\'t have an account yet?'),
-    TextSpan(text: ' Sign Up', style: TextStyle(fontSize: 14, fontFamily: 'Ubuntu', color: primaryColor, fontWeight: FontWeight.bold)),
+    TextSpan(
+        text: ' Sign Up',
+        style: TextStyle(
+            fontSize: 14,
+            fontFamily: 'Ubuntu',
+            color: primaryColor,
+            fontWeight: FontWeight.bold)),
   ],
 );
